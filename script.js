@@ -12,20 +12,30 @@ memeInput.addEventListener('change', function (evento) {
     memeContainer.appendChild(memeImage);
 });
 
-
-
-
 //Inserindo texto do input no container do meme
-
-
 function exibirTextoMeme () {
     let textoMeme = textInput.value;
     textoExibido.innerHTML = textoMeme;   
 }
 textInput.addEventListener('keyup', exibirTextoMeme);
 
+//Requisito 6 - Crie três botões que alterem as cores da borda dos memes
+let btnContainer = document.getElementById('btn-container');
+let btnFire = document.getElementById('fire');
+let btnWater = document.getElementById('water');
+let btnEarth = document.getElementById('earth');
 
+btnFire.addEventListener('click', function () {
+    memeContainer.style.border = '3px dashed rgb(255, 0, 0)';    
+})
 
+btnWater.addEventListener('click', function () {
+    memeContainer.style.border = '5px double rgb(0, 0, 255)';    
+})
+
+btnEarth.addEventListener('click', function () {
+    memeContainer.style.border = '6px groove rgb(0, 128, 0)';    
+})
 
 
 

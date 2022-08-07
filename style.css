@@ -36,3 +36,37 @@
     padding: 0%;
     margin: 0%;
 }
+
+#btn-container {
+    max-width:fit-content;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fire {
+    background-color: rgb(255, 0, 0);    
+    color: white;
+    padding: 3px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#water {
+    background-color: rgb(0, 0, 255);
+    color: white;
+    padding: 3px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#earth {
+    background-color: rgb(0, 128, 0);
+    color: white;
+    padding: 3px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: 800;
+}
