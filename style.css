@@ -1,11 +1,12 @@
 #meme-image-container {
     width: 400px;
-    height:min-content;
+    height:350px;
     min-height: 100px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;    
     background-color: white;
+    position: relative;
 }
 
 #output {
