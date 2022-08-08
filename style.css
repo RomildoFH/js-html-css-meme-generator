@@ -70,3 +70,17 @@
     font-size: 20px;
     font-weight: 800;
 }
+
+#imgs-container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meme-pronto {
+    width: 150px;
+    height: 100px;
+    margin: 15px 5px;
+    border: 3px solid black;
+}
+
